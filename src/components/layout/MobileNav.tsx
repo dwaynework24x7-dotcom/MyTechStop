@@ -33,8 +33,8 @@ export function MobileNav({ locale, open, onClose }: Props) {
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-40 bg-ink/95 pt-20 min-[1380px]:hidden">
-      <nav aria-label={nav("primary")} className="mx-auto flex h-full w-full max-w-6xl flex-col gap-6 overflow-y-auto px-5 pb-28">
+    <div id="mobile-navigation" className="fixed inset-0 z-[45] overflow-y-auto bg-ink pt-20 min-[1380px]:hidden">
+      <nav aria-label={nav("primary")} className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-5 pb-16">
         <ul className="grid gap-1">
           {primaryNav.map((item) => (
             <li key={item.id}>

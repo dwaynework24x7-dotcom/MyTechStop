@@ -33,6 +33,7 @@ export function Header({ locale }: { locale: Locale }) {
   }, [menuOpen]);
 
   return (
+    <>
     <header className={`fixed inset-x-0 top-0 z-50 border-b ${solid || menuOpen ? "border-white/10 bg-ink/95 backdrop-blur" : "border-transparent bg-transparent"}`}>
       <div className="mx-auto flex h-16 max-w-6xl items-center gap-3 px-3 md:h-[4.5rem] md:px-8">
         <Link href="/" className="flex shrink-0 items-center gap-2 text-white">
@@ -69,10 +70,9 @@ export function Header({ locale }: { locale: Locale }) {
           </button>
         </div>
       </div>
-      <div id="mobile-navigation">
-        <MobileNav locale={locale} open={menuOpen} onClose={() => setMenuOpen(false)} />
-      </div>
     </header>
+    <MobileNav locale={locale} open={menuOpen} onClose={() => setMenuOpen(false)} />
+    </>
   );
 }
 

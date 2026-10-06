@@ -24,8 +24,8 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       <p className="mt-6 text-sm text-white/50">{t("empty")}</p>
       <ul className="mt-12 grid gap-4 md:grid-cols-3">
         {insightTopics.map((topic, index) => (
-          <li key={topic.id} className="border border-white/10 p-6">
-            <p className="text-[11px] tracking-[0.16em] text-white/35 uppercase">0{index + 1}</p>
+          <li key={topic.id} className="border border-white/10 border-t-2 border-t-signal p-6">
+            <p className="text-[11px] tracking-[0.16em] text-signal uppercase">0{index + 1}</p>
             <h2 className="mt-4 text-xl font-medium text-white">{topic.title[locale]}</h2>
             <p className="mt-3 text-sm leading-6 text-muted">{topic.body[locale]}</p>
           </li>

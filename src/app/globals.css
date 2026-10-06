@@ -10,6 +10,7 @@
   --color-metal: #ececef;
   --color-line: rgba(255, 255, 255, 0.12);
   --color-danger: #f0c9c9;
+  --color-signal: #d12b2b;
 }
 
 html {
@@ -24,12 +25,12 @@ body {
 }
 
 ::selection {
-  background: #f4f4f5;
-  color: #111113;
+  background: #d12b2b;
+  color: #ffffff;
 }
 
 :focus-visible {
-  outline: 2px solid currentColor;
+  outline: 2px solid var(--color-signal);
   outline-offset: 3px;
 }
 

@@ -30,7 +30,7 @@ export function LanguageSwitcher({ className = "" }: { className?: string }) {
               locale={option.locale}
               hrefLang={option.locale}
               aria-current={active ? "true" : undefined}
-              className={active ? "text-white" : "text-white/55 hover:text-white"}
+              className={active ? "text-signal" : "text-white/55 hover:text-signal"}
               onClick={() => persistLocale(option.locale)}
               onMouseEnter={() => setHash(window.location.hash)}
               onFocus={() => setHash(window.location.hash)}

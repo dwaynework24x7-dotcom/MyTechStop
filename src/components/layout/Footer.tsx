@@ -11,10 +11,13 @@ export async function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/10 pb-28">
+    <footer className="border-t-2 border-signal pb-28">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-14 md:px-8 lg:grid-cols-[1.3fr_0.7fr]">
         <div>
-          <p className="text-[12px] font-medium tracking-[0.16em] text-white">MY TECH STOP</p>
+          <p className="flex items-center gap-2 text-[12px] font-medium tracking-[0.16em] text-white">
+            <span aria-hidden="true" className="size-2.5 bg-signal" />
+            MY TECH STOP
+          </p>
           <p className="mt-4 max-w-md text-sm leading-6 text-muted">{t("summary")}</p>
           <div className="mt-6">
             <LanguageSwitcher />
@@ -24,7 +27,7 @@ export async function Footer() {
           <ul className="grid grid-cols-2 gap-2 text-sm">
             {primaryNav.map((item) => (
               <li key={item.id}>
-                <Link href={item.href} className="text-white/75 hover:text-white">
+                <Link href={item.href} className="text-white/75 hover:text-signal">
                   {nav(item.id)}
                 </Link>
               </li>
@@ -36,7 +39,7 @@ export async function Footer() {
         <ul className="flex flex-wrap gap-x-4 gap-y-2">
           {legalPaths.map((item) => (
             <li key={item.id}>
-              <Link href={item.href} className="hover:text-white">
+              <Link href={item.href} className="hover:text-signal">
                 {legal(item.id)}
               </Link>
             </li>

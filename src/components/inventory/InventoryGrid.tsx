@@ -24,7 +24,7 @@ export async function InventoryGrid({ locale }: { locale: Locale }) {
             <li key={item.id} id={`cat-${item.id}`} className="scroll-mt-28 border border-white/10 bg-panel">
               <CategoryPhoto src={item.image} alt={pickLocalized(item.imageAlt, locale)} categoryId={item.id} className="h-44" />
               <div className="p-4">
-              <p className="text-[11px] tracking-[0.16em] text-muted uppercase">{item.manufacturer}</p>
+              <p className="text-[11px] tracking-[0.16em] text-signal uppercase">{item.manufacturer}</p>
               <h3 className="mt-1 text-xl font-medium text-white">
                 <Link href={`/products/${item.slug}`} className="hover:underline">
                   {pickLocalized(item.name, locale)}
@@ -50,8 +50,8 @@ export async function InventoryGrid({ locale }: { locale: Locale }) {
 export function SectionIntro({ index, eyebrow, title, body }: { index: string; eyebrow: string; title: string; body?: string }) {
   return (
     <div className="max-w-3xl">
-      <p className="text-[11px] font-medium tracking-[0.18em] text-muted uppercase">
-        <span className="mr-3 text-white/35">{index}</span>
+      <p className="text-[11px] font-medium tracking-[0.18em] text-signal uppercase">
+        <span className="mr-3">{index}</span>
         {eyebrow}
       </p>
       <h2 className="mt-4 text-3xl font-medium tracking-[-0.03em] text-white md:text-4xl">{title}</h2>

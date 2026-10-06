@@ -57,7 +57,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <main id="main">
       <StructuredData locale={locale} description={t("description")} />
-      <Hero locale={locale} />
+      <Hero locale={locale} countryCode={country} />
       <InventoryGrid locale={locale} />
       <BuyWholesale />
       <SellSection locale={locale} />

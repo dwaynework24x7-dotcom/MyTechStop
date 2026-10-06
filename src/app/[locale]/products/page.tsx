@@ -31,7 +31,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
             <Link href={`/products/${item.slug}`} className="flex h-full flex-col border border-white/10 bg-panel hover:border-white/30">
               <CategoryPhoto src={item.image} alt={pickLocalized(item.imageAlt, locale)} categoryId={item.id} className="h-52" />
               <div className="flex flex-1 flex-col p-5">
-              <p className="text-[11px] tracking-[0.16em] text-muted uppercase">{item.manufacturer}</p>
+              <p className="text-[11px] tracking-[0.16em] text-signal uppercase">{item.manufacturer}</p>
               <h2 className="mt-1 text-2xl font-medium text-white">{pickLocalized(item.name, locale)}</h2>
               <p className="mt-3 text-sm leading-6 text-muted">{pickLocalized(item.conditions, locale)}</p>
               <p className="mt-auto pt-5 text-sm text-white">{t("view")}</p>

@@ -26,12 +26,23 @@ const labelOffset: Record<string, { dx: number; dy: number }> = {
   HK: { dx: 28, dy: 8 },
 };
 
-export function InternationalMap({ locale, activeCode, label }: { locale: Locale; activeCode?: string; label: string }) {
+export function InternationalMap({
+  locale,
+  activeCode,
+  label,
+  compact = false,
+}: {
+  locale: Locale;
+  activeCode?: string;
+  label: string;
+  /** Smaller map for inside the homepage hero. */
+  compact?: boolean;
+}) {
   const points = featuredMarkets();
 
   return (
-    <div>
-      <div className="relative border border-white/10 bg-[#121418]">
+    <div className={compact ? "max-w-md" : undefined}>
+      <div className="relative border-x border-b border-white/10 border-t-2 border-t-signal bg-[#121418]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/maps/world.svg" alt="" className="block h-auto w-full" />
         <svg viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`} className="absolute inset-0 h-full w-full" aria-hidden="true">
@@ -49,8 +60,8 @@ export function InternationalMap({ locale, activeCode, label }: { locale: Locale
             const offset = labelOffset[point.code] ?? { dx: 0, dy: -14 };
             return (
               <g key={point.code}>
-                <circle cx={x} cy={y} r={active ? 11 : 7} fill={active ? "#ffffff" : "#e8e8e8"} />
-                {active ? <circle cx={x} cy={y} r={18} fill="none" stroke="#ffffff" strokeOpacity="0.75" /> : null}
+                <circle cx={x} cy={y} r={active ? 14 : 9} className="fill-signal" />
+                {active ? <circle cx={x} cy={y} r={18} fill="none" className="stroke-signal" strokeWidth="2" /> : null}
                 <text x={x + offset.dx} y={y + offset.dy} textAnchor="middle" fill="#ffffff" fontSize="22" fontFamily="ui-sans-serif, system-ui, sans-serif">
                   {point.code}
                 </text>
@@ -59,12 +70,12 @@ export function InternationalMap({ locale, activeCode, label }: { locale: Locale
           })}
         </svg>
       </div>
-      <ul aria-label={label} className="mt-5 grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-3">
+      <ul aria-label={label} className={compact ? "sr-only" : "mt-5 grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-3"}>
         {points.map((point) => {
           const active = point.code === activeCode;
           return (
             <li key={point.code} className={active ? "font-medium text-white" : "text-muted"}>
-              {active ? <span aria-hidden="true">● </span> : <span aria-hidden="true">○ </span>}
+              {active ? <span aria-hidden="true" className="text-signal">● </span> : <span aria-hidden="true">○ </span>}
               {point.name[locale]}
             </li>
           );

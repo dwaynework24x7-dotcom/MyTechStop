@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import type { Locale } from "@/config/locale";
-import { primaryNav } from "@/config/navigation";
+import { isCurrent, primaryNav } from "@/config/navigation";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { LanguageSwitcher } from "@/components/navigation/LanguageSwitcher";
 import { OpenInquiry } from "@/components/providers/InquiryProvider";
@@ -15,6 +15,7 @@ import { WhatsAppButton } from "@/components/whatsapp/WhatsAppButton";
 export function Header({ locale }: { locale: Locale }) {
   const nav = useTranslations("nav");
   const common = useTranslations("common");
+  const pathname = usePathname();
   const [solid, setSolid] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -42,11 +43,19 @@ export function Header({ locale }: { locale: Locale }) {
         </Link>
 
         <nav aria-label={nav("primary")} className="ml-5 hidden items-center gap-3 min-[1380px]:flex">
-          {primaryNav.map((item) => (
-            <Link key={item.id} href={item.href} className="whitespace-nowrap text-[11px] tracking-[0.12em] text-white/75 uppercase hover:text-white">
-              {nav(item.id)}
-            </Link>
-          ))}
+          {primaryNav.map((item) => {
+            const active = isCurrent(pathname, item.href);
+            return (
+              <Link
+                key={item.id}
+                href={item.href}
+                aria-current={active ? "page" : undefined}
+                className={`whitespace-nowrap text-[11px] tracking-[0.12em] uppercase ${active ? "text-signal" : "text-white/75 hover:text-signal"}`}
+              >
+                {nav(item.id)}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="ml-auto flex items-center gap-2 sm:gap-3">
@@ -80,7 +89,7 @@ function Mark() {
   return (
     <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" className="shrink-0">
       <rect x="0.75" y="0.75" width="14.5" height="14.5" fill="none" stroke="currentColor" strokeWidth="1.2" />
-      <rect x="5.5" y="5.5" width="5" height="5" fill="currentColor" />
+      <rect x="4.25" y="4.25" width="7.5" height="7.5" className="fill-signal" />
     </svg>
   );
 }

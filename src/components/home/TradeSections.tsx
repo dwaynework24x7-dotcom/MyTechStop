@@ -26,7 +26,7 @@ export async function BuyWholesale() {
           </div>
         </div>
         <div>
-          <h3 className="text-[11px] tracking-[0.16em] text-muted uppercase">{t("audiencesLabel")}</h3>
+          <h3 className="text-[11px] tracking-[0.16em] text-signal uppercase">{t("audiencesLabel")}</h3>
           <ul className="mt-4 grid grid-cols-2 gap-px border border-white/10 bg-white/10">
             {audiences.map((audience) => (
               <li key={audience} className="bg-ink px-4 py-4 text-sm text-white">
@@ -45,12 +45,12 @@ export async function SellSection({ locale }: { locale: Locale }) {
   const audiences = t.raw("audiences") as string[];
 
   return (
-    <section id="sell" className="scroll-mt-24 bg-paper py-20 text-paper-ink md:py-28">
+    <section id="sell" className="scroll-mt-24 border-t-2 border-signal bg-paper py-20 text-paper-ink md:py-28">
       <div className="mx-auto grid w-full max-w-6xl gap-12 px-4 md:px-8 lg:grid-cols-[1.05fr_0.95fr]">
         <div>
-          <p className="text-[11px] font-medium tracking-[0.18em] uppercase opacity-60">
-            <span className="mr-3">{t("index")}</span>
-            {t("eyebrow")}
+          <p className="text-[11px] font-medium tracking-[0.18em] uppercase">
+            <span className="mr-3 text-signal">{t("index")}</span>
+            <span className="text-signal">{t("eyebrow")}</span>
           </p>
           <h2 className="mt-4 text-3xl font-medium tracking-[-0.03em] md:text-5xl">{t("title")}</h2>
           <p className="mt-5 max-w-xl text-base leading-7 opacity-75">{t("body")}</p>
@@ -65,7 +65,7 @@ export async function SellSection({ locale }: { locale: Locale }) {
           </div>
         </div>
         <div>
-          <h3 className="text-[11px] tracking-[0.16em] uppercase opacity-60">{t("audiencesLabel")}</h3>
+          <h3 className="text-[11px] tracking-[0.16em] text-signal uppercase">{t("audiencesLabel")}</h3>
           <ul className="mt-4 flex flex-wrap gap-2">
             {audiences.map((audience) => (
               <li key={audience} className="border border-black/10 px-3 py-2 text-sm">

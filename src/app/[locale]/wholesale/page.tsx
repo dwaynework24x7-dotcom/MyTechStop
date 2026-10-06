@@ -43,7 +43,7 @@ export default async function WholesalePage({ params }: { params: Promise<{ loca
           {t("categories")}
         </Link>
       </div>
-      <h2 className="mt-16 text-[11px] tracking-[0.16em] text-muted uppercase">{t("categories")}</h2>
+      <h2 className="mt-16 text-[11px] tracking-[0.16em] text-signal uppercase">{t("categories")}</h2>
       <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {catalog.map((item) => (
           <li key={item.id}>

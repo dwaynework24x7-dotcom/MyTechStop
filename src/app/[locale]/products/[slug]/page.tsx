@@ -51,7 +51,7 @@ export default async function ProductCategoryPage({ params }: { params: Promise<
 
   return (
     <PageMain>
-      <Link href="/products" className="text-sm text-muted hover:text-white">
+      <Link href="/products" className="text-sm text-muted hover:text-signal">
         {t("back")}
       </Link>
       <div className="mt-8 grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
@@ -62,7 +62,7 @@ export default async function ProductCategoryPage({ params }: { params: Promise<
           className="h-80 border border-white/10 lg:h-[32rem]"
         />
         <div>
-          <p className="text-[11px] tracking-[0.16em] text-muted uppercase">{item.manufacturer}</p>
+          <p className="text-[11px] tracking-[0.16em] text-signal uppercase">{item.manufacturer}</p>
           <h1 className="mt-3 text-4xl font-medium tracking-[-0.03em] text-white md:text-5xl">{name}</h1>
           <p className="mt-5 text-base leading-7 text-muted">{t(copyKey[item.id as keyof typeof copyKey])}</p>
           <p className="mt-6 text-sm text-white">{pickLocalized(item.conditions, locale)}</p>
@@ -77,11 +77,11 @@ export default async function ProductCategoryPage({ params }: { params: Promise<
           </div>
         </div>
       </div>
-      <h2 className="mt-16 text-[11px] tracking-[0.16em] text-muted uppercase">{t("related")}</h2>
+      <h2 className="mt-16 text-[11px] tracking-[0.16em] text-signal uppercase">{t("related")}</h2>
       <ul className="mt-4 flex flex-wrap gap-3">
         {related.map((entry) => (
           <li key={entry.id}>
-            <Link href={`/products/${entry.slug}`} className="inline-flex min-h-11 items-center border border-white/15 px-4 text-sm text-white hover:border-white/40">
+            <Link href={`/products/${entry.slug}`} className="inline-flex min-h-11 items-center border border-white/15 px-4 text-sm text-white hover:border-signal">
               {pickLocalized(entry.name, locale)}
             </Link>
           </li>

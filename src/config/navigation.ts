@@ -14,6 +14,11 @@ export const primaryNav: readonly NavItem[] = [
   { id: "contact", href: "/contact" },
 ] as const;
 
+export function isCurrent(pathname: string, href: string) {
+  if (href === "/") return pathname === "/";
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
+
 export const legalPaths = [
   { id: "privacy", href: "/legal/privacy" },
   { id: "terms", href: "/legal/terms" },

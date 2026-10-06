@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "U.S. Wholesale Mobile Devices | My Tech Stop",
+    "description": "My Tech Stop buys and sells mobile devices in bulk. Wholesale Apple, Samsung, and electronics for retailers, resellers, distributors, and international buyers. Pricing on request."
+  },
+  "hero": {
+    "eyebrow": "United States · Wholesale",
+    "title": "U.S. Wholesale Mobile Devices. Built for Resellers.",
+    "support": "Wholesale Apple, Samsung and mobile electronics for retailers, resellers, distributors and international buyers.",
+    "viewInventory": "View wholesale inventory",
+    "requestPricing": "Request wholesale pricing",
+    "sellDevices": "Sell us devices",
+    "whatsappSales": "WhatsApp sales",
+    "note": "Inventory changes throughout the day. A sales representative confirms the current price."
+  },
+  "featured": "Featured focus",
+  "inventory": {
+    "index": "01",
+    "eyebrow": "Featured inventory",
+    "title": "Categories we buy and sell",
+    "body": "These are product categories, not a live stock list. Availability changes frequently. Request a price for what you need today."
+  },
+  "buy": {
+    "index": "02",
+    "eyebrow": "Buy wholesale",
+    "title": "Wholesale devices for resellers and businesses",
+    "body": "My Tech Stop sells mobile devices and electronics in bulk. Tell us the models, quantities, and conditions you need. The sales team confirms what is available.",
+    "requestInventory": "Request inventory",
+    "getPricing": "Get current pricing",
+    "audiencesLabel": "Built for",
+    "audiences": ["Retail stores", "Wholesalers", "Online sellers", "Exporters", "Resellers", "Distributors"]
+  },
+  "sell": {
+    "index": "03",
+    "eyebrow": "Sell to My Tech Stop",
+    "title": "Have inventory? We buy.",
+    "body": "Send a model list, quantities, and condition. The buying team follows up. A file can be attached as XLSX, CSV, or PDF.",
+    "submit": "Submit inventory",
+    "upload": "Upload price list",
+    "whatsapp": "WhatsApp buying team",
+    "audiencesLabel": "We buy from",
+    "audiences": ["Phone stores", "Wholesalers", "Distributors", "Repair shops", "Brokers", "Liquidators", "Corporate IT", "Businesses", "High-volume sellers"]
+  },
+  "international": {
+    "index": "04",
+    "eyebrow": "International",
+    "title": "U.S. inventory. Global business.",
+    "body": "Serving international wholesale buyers. Export inquiries are welcome. Supplying resellers and businesses worldwide.",
+    "note": "Markets shown here are buyer markets. They are not offices or warehouses.",
+    "servingIn": "Serving wholesale buyers in {country}.",
+    "buyers": "International buyers",
+    "whatsapp": "WhatsApp sales",
+    "mapLabel": "Markets where wholesale buyers are served"
+  },
+  "trust": {
+    "index": "05",
+    "eyebrow": "How we work",
+    "title": "A wholesale desk, stated plainly."
+  },
+  "operations": {
+    "index": "06",
+    "eyebrow": "Operations",
+    "title": "Inventory, shipments, and the work in between.",
+    "body": "Photography from current operations can replace these graphics. Nothing on this page is a stock count or a shipment total."
+  },
+  "insights": {
+    "index": "07",
+    "eyebrow": "Market insights",
+    "title": "What wholesale buyers usually need to confirm.",
+    "body": "Short guidance only. These are not published market reports, and they are not a promise of stock."
+  },
+  "cta": {
+    "index": "08",
+    "title": "Ask for today’s pricing.",
+    "body": "Buyers can request a quote. Sellers can submit inventory. WhatsApp is available when a sales number is configured.",
+    "pricing": "Request wholesale pricing",
+    "sell": "Submit inventory"
+  },
+  "footer": {
+    "summary": "My Tech Stop buys and sells mobile devices in bulk from the United States. Pricing and availability are confirmed by the sales team.",
+    "rights": "All rights reserved."
+  }
+}

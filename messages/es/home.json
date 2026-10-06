@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Dispositivos móviles al por mayor desde EE. UU. | My Tech Stop",
+    "description": "My Tech Stop compra y vende dispositivos móviles al por mayor. Apple, Samsung y electrónica para tiendas, revendedores, distribuidores y compradores internacionales. Precios a solicitud."
+  },
+  "hero": {
+    "eyebrow": "Estados Unidos · Mayoreo",
+    "title": "Dispositivos móviles al por mayor desde Estados Unidos. Para revendedores.",
+    "support": "Apple, Samsung y electrónica móvil al por mayor para tiendas, revendedores, distribuidores y compradores internacionales.",
+    "viewInventory": "Ver inventario al por mayor",
+    "requestPricing": "Pedir precios de mayoreo",
+    "sellDevices": "Vender dispositivos",
+    "whatsappSales": "WhatsApp de ventas",
+    "note": "El inventario cambia durante el día. Un representante de ventas confirma el precio actual."
+  },
+  "featured": "Enfoque actual",
+  "inventory": {
+    "index": "01",
+    "eyebrow": "Inventario destacado",
+    "title": "Categorías que compramos y vendemos",
+    "body": "Estas son categorías, no una lista de existencias en vivo. La disponibilidad cambia con frecuencia. Pida el precio de lo que necesita hoy."
+  },
+  "buy": {
+    "index": "02",
+    "eyebrow": "Comprar al por mayor",
+    "title": "Dispositivos al por mayor para revendedores y empresas",
+    "body": "My Tech Stop vende dispositivos móviles y electrónica por volumen. Indique modelos, cantidades y condiciones. El equipo de ventas confirma lo que hay disponible.",
+    "requestInventory": "Pedir inventario",
+    "getPricing": "Pedir precios actuales",
+    "audiencesLabel": "Trabajamos con",
+    "audiences": ["Tiendas", "Mayoristas", "Vendedores en línea", "Exportadores", "Revendedores", "Distribuidores"]
+  },
+  "sell": {
+    "index": "03",
+    "eyebrow": "Vender a My Tech Stop",
+    "title": "¿Tiene inventario? Lo compramos.",
+    "body": "Envíe modelos, cantidades y condición. El equipo de compra da seguimiento. Puede adjuntar un archivo XLSX, CSV o PDF.",
+    "submit": "Enviar inventario",
+    "upload": "Subir lista de precios",
+    "whatsapp": "WhatsApp del equipo de compra",
+    "audiencesLabel": "Compramos a",
+    "audiences": ["Tiendas de teléfonos", "Mayoristas", "Distribuidores", "Talleres de reparación", "Intermediarios", "Liquidadores", "TI corporativo", "Empresas", "Vendedores de alto volumen"]
+  },
+  "international": {
+    "index": "04",
+    "eyebrow": "Internacional",
+    "title": "Inventario de Estados Unidos. Negocio global.",
+    "body": "Atendemos a compradores mayoristas internacionales. Las consultas de exportación son bienvenidas. Suministramos a revendedores y empresas en distintos mercados.",
+    "note": "Los mercados que se muestran son mercados de compradores. No son oficinas ni bodegas.",
+    "servingIn": "Atendemos a compradores mayoristas en {country}.",
+    "buyers": "Compradores internacionales",
+    "whatsapp": "WhatsApp de ventas",
+    "mapLabel": "Mercados donde se atiende a compradores mayoristas"
+  },
+  "trust": {
+    "index": "05",
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un escritorio mayorista, dicho con claridad."
+  },
+  "operations": {
+    "index": "06",
+    "eyebrow": "Operación",
+    "title": "Inventario, envíos y el trabajo de por medio.",
+    "body": "Las fotos de la operación actual pueden reemplazar estos gráficos. Nada en esta página es un conteo de existencias ni un total de envíos."
+  },
+  "insights": {
+    "index": "07",
+    "eyebrow": "Información del mercado",
+    "title": "Lo que un comprador mayorista suele confirmar.",
+    "body": "Orientación breve. No son informes de mercado publicados ni una promesa de inventario."
+  },
+  "cta": {
+    "index": "08",
+    "title": "Pida los precios de hoy.",
+    "body": "Los compradores pueden pedir una cotización. Los vendedores pueden enviar inventario. WhatsApp está disponible cuando hay un número de ventas configurado.",
+    "pricing": "Pedir precios de mayoreo",
+    "sell": "Enviar inventario"
+  },
+  "footer": {
+    "summary": "My Tech Stop compra y vende dispositivos móviles al por mayor desde Estados Unidos. El equipo de ventas confirma precios y disponibilidad.",
+    "rights": "Todos los derechos reservados."
+  }
+}

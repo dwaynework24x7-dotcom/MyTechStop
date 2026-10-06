@@ -1,0 +1,122 @@
+{
+  "wholesale": {
+    "metaTitle": "Dispositivos al por mayor | My Tech Stop",
+    "metaDescription": "Apple, Samsung y electrónica móvil al por mayor para tiendas, revendedores, distribuidores y compradores internacionales. El equipo de ventas confirma el precio.",
+    "eyebrow": "Comprar al por mayor",
+    "title": "Dispositivos al por mayor para revendedores y empresas",
+    "lede": "My Tech Stop vende dispositivos móviles y electrónica por volumen desde Estados Unidos. Indique al equipo de ventas los modelos, las cantidades y las condiciones que necesita. Ellos confirman lo disponible y el precio actual.",
+    "points": [
+      "Tiendas, mayoristas, vendedores en línea, exportadores, revendedores y distribuidores",
+      "Equipos nuevos, sellados, de caja abierta, activados, sin activar, usados y con grado, según el inventario del momento",
+      "Equipos liberados y con operador, confirmados antes de comprar",
+      "Atención de ventas en inglés y en español"
+    ],
+    "categories": "Categorías",
+    "pricing": "Pedir precios de mayoreo"
+  },
+  "sell": {
+    "metaTitle": "Vender inventario de teléfonos | My Tech Stop",
+    "metaDescription": "My Tech Stop compra inventario a tiendas, mayoristas, talleres, intermediarios, liquidadores y empresas. Envíe una lista XLSX, CSV o PDF.",
+    "eyebrow": "Vender a My Tech Stop",
+    "title": "¿Tiene inventario? Lo compramos.",
+    "lede": "Envíe modelos, cantidades y condición. El equipo de compra da seguimiento. El precio deseado es opcional. Adjunte un XLSX, CSV o PDF si tiene una lista.",
+    "who": "Compramos a tiendas de teléfonos, mayoristas, distribuidores, talleres de reparación, intermediarios, liquidadores, equipos de TI corporativos, empresas y vendedores de alto volumen."
+  },
+  "products": {
+    "metaTitle": "Categorías al por mayor | My Tech Stop",
+    "metaDescription": "Categorías de iPhone, Samsung, iPad, MacBook y Apple Watch para compradores mayoristas. Pida precio. La disponibilidad cambia durante el día.",
+    "eyebrow": "Productos",
+    "title": "Categorías que compramos y vendemos",
+    "lede": "Estas son categorías, no una lista de existencias en vivo. La disponibilidad cambia con frecuencia. Abra una categoría y pida el precio de lo que necesita hoy.",
+    "view": "Ver categoría"
+  },
+  "category": {
+    "metaDescription": "{name} al por mayor en My Tech Stop. Pida precio. Un representante confirma la disponibilidad actual.",
+    "back": "Todas las categorías",
+    "supply": "Suministro al por mayor",
+    "price": "Precio a solicitud",
+    "confirm": "Un representante de ventas confirmará la disponibilidad y el precio actuales.",
+    "related": "Otras categorías",
+    "iphone": "iPhone es una categoría principal de mayoreo. Las unidades pueden ser nuevas, selladas, de caja abierta, activadas, sin activar, usadas o con grado, y liberadas o con operador. La mezcla cambia. Pregunte por los modelos que necesita.",
+    "samsung": "Los teléfonos Samsung Galaxy se ofrecen junto con los equipos Apple. La condición, el operador y el bloqueo se confirman con el equipo de ventas antes de dar un precio.",
+    "ipad": "El iPad es una categoría al por mayor en grados nuevo, caja abierta y usado, cuando hay inventario. El almacenamiento y la conectividad se confirman por pedido.",
+    "macbook": "Los MacBook se cotizan por modelo y condición. Esta página no publica una configuración fija ni un precio público.",
+    "apple-watch": "El Apple Watch se compra y se vende en varias condiciones. Consulte la mezcla actual en lugar de un precio fijo."
+  },
+  "international": {
+    "metaTitle": "Compradores mayoristas internacionales | My Tech Stop",
+    "metaDescription": "My Tech Stop atiende a compradores mayoristas internacionales desde Estados Unidos. Las consultas de exportación son bienvenidas. Los mercados indicados no son oficinas.",
+    "eyebrow": "Internacional",
+    "title": "Inventario de Estados Unidos. Negocio global.",
+    "lede": "Atendemos a compradores mayoristas internacionales. Las consultas de exportación son bienvenidas. Suministramos a revendedores y empresas en distintos mercados.",
+    "note": "Los países de abajo son mercados de compradores. No son oficinas, bodegas ni sucursales.",
+    "next": "Cuéntenos su mercado",
+    "wholesale": "Ver mayoreo"
+  },
+  "insights": {
+    "metaTitle": "Información del mercado mayorista | My Tech Stop",
+    "metaDescription": "Orientación breve para compradores mayoristas: equipos de especificación estadounidense, liberados o con operador, y cómo se confirma el precio.",
+    "eyebrow": "Información del mercado",
+    "title": "Lo que un comprador mayorista suele confirmar",
+    "lede": "Orientación breve para compradores y vendedores. No son informes de mercado publicados ni una promesa de inventario. Los artículos con fecha se agregarán solo después de revisarlos.",
+    "empty": "Todavía no hay artículos publicados."
+  },
+  "about": {
+    "metaTitle": "Sobre My Tech Stop",
+    "metaDescription": "My Tech Stop es una empresa de electrónica al por mayor en Estados Unidos. Compra dispositivos y los vende a revendedores y compradores internacionales.",
+    "eyebrow": "Nosotros",
+    "title": "Compramos dispositivos. Vendemos dispositivos.",
+    "lede": "My Tech Stop es una empresa de electrónica al por mayor en Estados Unidos. Vendemos dispositivos móviles por volumen a tiendas, revendedores, distribuidores y compradores internacionales. También compramos inventario a tiendas, mayoristas, talleres, intermediarios, liquidadores, equipos corporativos y vendedores de alto volumen.",
+    "languages": "El sitio y las conversaciones de ventas están disponibles en inglés y en español.",
+    "markets": "Las consultas de exportación son bienvenidas. Este sitio no indica oficinas ni bodegas fuera de Estados Unidos."
+  },
+  "contact": {
+    "metaTitle": "Contacto | My Tech Stop",
+    "metaDescription": "Pida precios de mayoreo o consulte para vender inventario. Un representante confirma disponibilidad y precio.",
+    "eyebrow": "Contacto",
+    "title": "Pida precios o envíe inventario",
+    "lede": "Los compradores pueden pedir una cotización. Los vendedores pueden enviar una lista en la página de venta. Un representante confirma disponibilidad y precio.",
+    "sell": "Vender inventario",
+    "wholesale": "Al por mayor"
+  },
+  "legal": {
+    "notice": "Esta página es un borrador de la política de la empresa. No es un documento legal revisado por un abogado. El texto final debe coincidir con la forma en que My Tech Stop trata las consultas, los archivos, los envíos y las devoluciones.",
+    "privacy": "Privacidad",
+    "terms": "Condiciones de uso",
+    "sale": "Condiciones de venta",
+    "shipping": "Envíos",
+    "returns": "Devoluciones",
+    "privacyTitle": "Privacidad",
+    "privacyBody": [
+      "El sitio puede guardar una preferencia de idioma cuando usted elige English o Español.",
+      "Los formularios recogen los datos que usted envía, como nombre, empresa, correo, WhatsApp, país y los dispositivos que quiere comprar o vender.",
+      "Si el servidor lo proporciona, un código de país puede usarse para elegir el idioma inicial y para entender de qué mercados llegan las consultas.",
+      "Las listas de inventario se guardan para el equipo de compra. No se publican en el sitio.",
+      "Las herramientas de analítica no se cargan si no hay un identificador configurado. No envíe contraseñas ni datos de tarjetas por estos formularios."
+    ],
+    "termsTitle": "Condiciones de uso",
+    "termsBody": [
+      "Este sitio describe un negocio de electrónica al por mayor. Las páginas de categoría no son una oferta de una cantidad concreta a un precio concreto.",
+      "No puede usar el sitio para subir malware, scripts ni archivos distintos de listas XLSX, CSV y PDF.",
+      "El contenido del sitio pertenece a My Tech Stop, salvo los nombres de producto, que pertenecen a sus titulares."
+    ],
+    "saleTitle": "Condiciones de venta",
+    "saleBody": [
+      "Una venta al por mayor ocurre solo después de que el equipo de ventas confirma con usted los equipos, la cantidad, la condición, el precio y la forma de pago.",
+      "Nada en este sitio es un precio fijo, una reserva ni una promesa de entrega.",
+      "Los métodos de pago y las facturas se acuerdan con el equipo de ventas. Este sitio no los cobra."
+    ],
+    "shippingTitle": "Envíos",
+    "shippingBody": [
+      "El método, el destino y el plazo de envío se confirman con el equipo de ventas como parte de un pedido.",
+      "Esta página no indica tiempos de tránsito, transportistas ni condiciones de aduana.",
+      "Las consultas de exportación son bienvenidas. Un envío no se reserva desde el sitio."
+    ],
+    "returnsTitle": "Devoluciones",
+    "returnsBody": [
+      "Las condiciones de devolución y cancelación forman parte del pedido que el equipo de ventas confirma con usted.",
+      "Este sitio no publica un plazo general de devolución ni un cargo por reposición.",
+      "Si va a enviar inventario a My Tech Stop, el equipo de compra confirma si acepta una oferta antes de que usted envíe."
+    ]
+  }
+}

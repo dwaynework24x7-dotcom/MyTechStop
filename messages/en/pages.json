@@ -1,0 +1,122 @@
+{
+  "wholesale": {
+    "metaTitle": "Wholesale Mobile Devices | My Tech Stop",
+    "metaDescription": "Wholesale Apple, Samsung, and mobile electronics for retailers, resellers, distributors, and international buyers. Pricing is confirmed by the sales team.",
+    "eyebrow": "Buy wholesale",
+    "title": "Wholesale devices for resellers and businesses",
+    "lede": "My Tech Stop sells mobile devices and electronics in bulk from the United States. Tell the sales team the models, quantities, and conditions you need. They confirm what is available and the current price.",
+    "points": [
+      "Retail stores, wholesalers, online sellers, exporters, resellers, and distributors",
+      "New, sealed, open box, activated, non-activated, used, and graded devices, subject to current stock",
+      "Unlocked and carrier devices, confirmed before you buy",
+      "English and Spanish sales support"
+    ],
+    "categories": "Categories",
+    "pricing": "Request wholesale pricing"
+  },
+  "sell": {
+    "metaTitle": "Sell Phone Inventory | My Tech Stop",
+    "metaDescription": "My Tech Stop buys device inventory from stores, wholesalers, repair shops, brokers, liquidators, and businesses. Submit a list as XLSX, CSV, or PDF.",
+    "eyebrow": "Sell to My Tech Stop",
+    "title": "Have inventory? We buy.",
+    "lede": "Send models, quantities, and condition. The buying team follows up. A desired price is optional. Attach an XLSX, CSV, or PDF if you have a list.",
+    "who": "We buy from phone stores, wholesalers, distributors, repair shops, brokers, liquidators, corporate IT teams, businesses, and high-volume sellers."
+  },
+  "products": {
+    "metaTitle": "Wholesale Product Categories | My Tech Stop",
+    "metaDescription": "iPhone, Samsung, iPad, MacBook, and Apple Watch categories for wholesale buyers. Request a price. Availability changes throughout the day.",
+    "eyebrow": "Products",
+    "title": "Categories we buy and sell",
+    "lede": "These are product categories, not a live stock list. Availability changes frequently. Open a category and request a price for what you need today.",
+    "view": "View category"
+  },
+  "category": {
+    "metaDescription": "Wholesale {name} from My Tech Stop. Request a price. A sales representative confirms current availability.",
+    "back": "All categories",
+    "supply": "Wholesale supply",
+    "price": "Price on request",
+    "confirm": "A sales representative will confirm current availability and pricing.",
+    "related": "Other categories",
+    "iphone": "iPhone is a core wholesale category. Units may be new, sealed, open box, activated, non-activated, used, or graded, and unlocked or carrier-locked. The mix changes. Ask for the models you need.",
+    "samsung": "Samsung Galaxy phones are offered alongside Apple devices. Condition, carrier, and lock status are confirmed with the sales team before a price is given.",
+    "ipad": "iPads are available as a wholesale category across new, open box, and used grades when stock allows. Storage and connectivity are confirmed per order.",
+    "macbook": "MacBooks are quoted by model and condition. This page does not list a fixed configuration or a public price.",
+    "apple-watch": "Apple Watch units are bought and sold in multiple conditions. Ask for the current mix rather than a standing price."
+  },
+  "international": {
+    "metaTitle": "International Wholesale Buyers | My Tech Stop",
+    "metaDescription": "My Tech Stop serves international wholesale buyers from the United States. Export inquiries are welcome. The markets listed are buyer markets, not offices.",
+    "eyebrow": "International",
+    "title": "U.S. inventory. Global business.",
+    "lede": "Serving international wholesale buyers. Export inquiries are welcome. Supplying resellers and businesses worldwide.",
+    "note": "The countries below are markets where buyers are served. They are not offices, warehouses, or branches.",
+    "next": "Tell us your market",
+    "wholesale": "View wholesale"
+  },
+  "insights": {
+    "metaTitle": "Wholesale Insights | My Tech Stop",
+    "metaDescription": "Plain guidance for wholesale device buyers: USA-spec devices, carrier and unlocked units, and how pricing is confirmed.",
+    "eyebrow": "Market insights",
+    "title": "What wholesale buyers usually confirm",
+    "lede": "Short guidance for buyers and sellers. These are not published market reports, and they are not a promise of stock. Dated articles will be added only after they are reviewed.",
+    "empty": "No articles are published yet."
+  },
+  "about": {
+    "metaTitle": "About My Tech Stop",
+    "metaDescription": "My Tech Stop is a U.S. wholesale electronics business. We buy devices and we sell devices to resellers and international buyers.",
+    "eyebrow": "About",
+    "title": "We buy devices. We sell devices.",
+    "lede": "My Tech Stop is a United States wholesale electronics business. We sell mobile devices in bulk to retailers, resellers, distributors, and international buyers. We also buy inventory from stores, wholesalers, repair shops, brokers, liquidators, corporate teams, and high-volume sellers.",
+    "languages": "The website and sales conversations are available in English and Spanish.",
+    "markets": "Export inquiries are welcome. This site does not list offices or warehouses outside the United States."
+  },
+  "contact": {
+    "metaTitle": "Contact My Tech Stop",
+    "metaDescription": "Request wholesale pricing or ask about selling inventory. A sales representative confirms availability and price.",
+    "eyebrow": "Contact",
+    "title": "Request pricing or send inventory",
+    "lede": "Buyers can request a quote. Sellers can submit a list on the sell page. A sales representative confirms availability and price.",
+    "sell": "Sell inventory",
+    "wholesale": "Wholesale"
+  },
+  "legal": {
+    "notice": "This page is a placeholder for company policy. It is not a counsel-reviewed legal document. Final wording must match how My Tech Stop actually handles inquiries, files, shipping, and returns.",
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "sale": "Terms of sale",
+    "shipping": "Shipping",
+    "returns": "Returns",
+    "privacyTitle": "Privacy",
+    "privacyBody": [
+      "The site can store a language preference when you choose English or Español.",
+      "Inquiry forms collect the details you submit, such as your name, business, email, WhatsApp number, country, and the devices you want to buy or sell.",
+      "Where the host provides it, a country code may be used to choose a default language and to understand which markets inquiries come from.",
+      "Uploaded inventory lists are stored for the buying team. They are not published on the website.",
+      "Marketing and analytics tools are not loaded unless their IDs are configured. Do not send passwords or payment card numbers through these forms."
+    ],
+    "termsTitle": "Terms of use",
+    "termsBody": [
+      "This website describes a wholesale electronics business. Category pages are not an offer of a specific quantity at a specific price.",
+      "You may not use the site to upload malware, scripts, or files other than XLSX, CSV, and PDF inventory lists.",
+      "Content on the site is owned by My Tech Stop except for product names, which belong to their owners."
+    ],
+    "saleTitle": "Terms of sale",
+    "saleBody": [
+      "A wholesale sale happens only after the sales team confirms the devices, quantity, condition, price, and payment terms with you.",
+      "Nothing on this website is a standing price, a reservation, or a delivery promise.",
+      "Payment methods and invoices are agreed with the sales team. They are not collected on this website."
+    ],
+    "shippingTitle": "Shipping",
+    "shippingBody": [
+      "Shipping method, destination, and timing are confirmed with the sales team as part of an order.",
+      "This page does not state transit times, carriers, or export clearance terms.",
+      "Export inquiries are welcome. A shipment is not booked from the website."
+    ],
+    "returnsTitle": "Returns",
+    "returnsBody": [
+      "Return and cancellation terms are part of the order the sales team confirms with you.",
+      "This website does not publish a general return window or a restocking fee.",
+      "If you are sending inventory to My Tech Stop, the buying team confirms whether a bid is accepted before you ship."
+    ]
+  }
+}
